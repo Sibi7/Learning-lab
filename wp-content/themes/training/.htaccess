@@ -1,0 +1,20 @@
+#<IfModule mod_rewrite.c>
+#	RewriteEngine on
+#	RewriteBase /
+#
+#	#RewriteCond %{HTTPS} !=on
+#	#RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+#
+#	#RewriteCond %{SERVER_PORT} ^443$
+#	#RewriteRule ^/?(.*) http://%{SERVER_NAME}/$1 [R=301,L]
+#
+#	RewriteCond %{REQUEST_FILENAME} !-d
+#	RewriteCond %{REQUEST_FILENAME}\.php -f
+#	RewriteRule ^(.*)$ $1.php
+#
+#	RewriteCond %{REQUEST_FILENAME} !-d
+#	RewriteCond %{REQUEST_FILENAME}\.html -f
+#	RewriteRule ^(.*)$ $1.html
+#
+#	ErrorDocument 404 /404
+#</IfModule>
