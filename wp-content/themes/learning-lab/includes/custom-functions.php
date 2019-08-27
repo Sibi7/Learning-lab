@@ -32,4 +32,11 @@
 //    }
 //    wp_die();
 //}
+//register_nav_menus(array(
+//    'top'    => 'Верхнее меню',
+//    'bottom' => 'Нижнее меню'
+//));
+
+
+add_filter('show_admin_bar', '__return_false'); // return_false - отключить, return_true - включить
 

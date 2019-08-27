@@ -9,44 +9,8 @@
 
 ?>
 
-<?php the_content(); ?>
+<?php //the_content(); ?>
 <body>
-<!--START HEADER-->
-<header class="position-fixed vw-100">
-    <div class="container">
-        <div class="row">
-            <div class="col-6 col-md-2">
-                <div class="header__logo"><a href="/"><img src="/images/logo.png" class="mw-100" alt="logo"></a></div>
-            </div>
-            <div class="d-block d-md-none col-6">
-                <div class="mobile-menu-btn float-right" onclick="show_mobile_menu();">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
-            </div>
-            <div class="col-md-10 mobile-menu" id="mobile-menu">
-                <button type="button" class="mobile-menu__close-btn d-md-none btn btn-light" onclick="hide_mobile_menu();">&times;</button>
-                <div class="text-center text-md-right fixed-hide">
-                    <a href="tel:87017953233" class="link link--white link__phone" title="+7 701 795 32 33"><b><img src="/images/icons/icon__phone.png?v=1.1" alt="phone icon"> +7 701 795 32 33</b></a>
-                </div>
-                <nav class="float-none float-md-right">
-                    <ul class="list-unstyled nav main-menu main-menu--white">
-                        <li class="nav-item"><a href="#section__first-screen" class="nav-link link__anchor" title="Главная">Главная</a></li>
-                        <li class="nav-item"><a href="#section__program" class="nav-link link__anchor" title="Программа">Программа</a></li>
-                        <li class="nav-item"><a href="#section_lecturers" class="nav-link link__anchor" title="Преподаватели">Преподаватели</a></li>
-                        <li class="nav-item"><a href="#section__reasons" class="nav-link link__anchor" title="Приемущества">Приемущества</a></li>
-                        <li class="nav-item"><a href="#section__trust" class="nav-link link__anchor" title="О нас">О нас</a></li>
-                        <li class="nav-item"><a href="#section__reviews" class="nav-link link__anchor" title="Отзывы">Отзывы</a></li>
-                        <li class="nav-item"><a href="#section__results" class="nav-link link__anchor" title="Чему вы научитесь">Чему вы научитесь</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
-</header>
-<!--END HEADER-->
-
 <!--START SECTION FIRST SCREEN-->
 <section id="section__first-screen" class="text-white">
     <div class="container">
@@ -631,7 +595,7 @@
             </div>
             <div class="col-md-6 trust__item__logo">
                 <div class="trust__item__logo__block d-flex flex-row justify-content-center align-items-center">
-                    <img src="/images/narxoz__logo.png" alt="Narxoz logo">
+                    <img src="<?php bloginfo('template_directory') ;?>/images/narxoz__logo.png" alt="Narxoz logo">
                 </div>
             </div>
             <div class="trust__item__shadow"></div>
@@ -641,7 +605,7 @@
         <div class="row trust__item d-flex flex-row justify-content-between align-items-center">
             <div class="col-md-6 trust__item__logo">
                 <div class="trust__item__logo__block trust__item__logo__block--left d-flex flex-row justify-content-center align-items-center">
-                    <img src="/images/narxoz__logo.png" alt="Narxoz logo">
+                    <img src="<?php bloginfo('template_directory') ;?>/images/narxoz__logo.png" alt="Narxoz logo">
                 </div>
             </div>
             <div class="col-md-6 trust__item__text-block">
@@ -661,7 +625,7 @@
             </div>
             <div class="col-md-6 trust__item__logo">
                 <div class="trust__item__logo__block d-flex flex-row justify-content-center align-items-center">
-                    <img src="/images/narxoz__logo.png" alt="Narxoz logo">
+                    <img src="<?php bloginfo('template_directory') ;?>/images/narxoz__logo.png" alt="Narxoz logo">
                 </div>
             </div>
             <div class="trust__item__shadow"></div>
@@ -743,7 +707,7 @@
                 <div class="lecturers__items owl-carousel">
                     <!--START LECTURERS ITEM-->
                     <div class="lecturers__item text-center">
-                        <div class="lecturers__item__photo"><img src="/images/lecturers/lecturer__talgat.jpg" alt="man"></div>
+                        <div class="lecturers__item__photo"><img src="<?php bloginfo('template_directory') ;?>/images/lecturers/lecturer__talgat.jpg" alt="man"></div>
                         <div class="lecturers__item__name text-uppercase"><b>Талгат Демежан</b></div>
                         <div class="lecturers__item__text">
                             <p>Опытный оператор и монтажёр, тренер, реализовал более 20 образовательными проектов для вузов и бизнеса, обучает преподавателей Университета Нархоз технике эффективных публичных выступлений и созданию вовлекающих обучающих видео.</p>
@@ -752,7 +716,7 @@
                     <!--END LECTURERS ITEM-->
                     <!--START LECTURERS ITEM-->
                     <div class="lecturers__item text-center">
-                        <div class="lecturers__item__photo"><img src="/images/lecturers/lecturer__erik.jpg" alt="man"></div>
+                        <div class="lecturers__item__photo"><img src="<?php bloginfo('template_directory') ;?>/images/lecturers/lecturer__erik.jpg" alt="man"></div>
                         <div class="lecturers__item__name text-uppercase"><b>Ерик Соотла</b></div>
                         <div class="lecturers__item__text">
                             <p>В прошлом преподаватель Таллинского университета, руководил созданием магистерской программы в смешанном формате для университетов Таллина и Тампере в 2003. Изучает педагогический дизайн и дидактику онлайн обучения, координирует программу по разработке смешанных дисциплин бакалавриата для Университета Нархоз.</p>
@@ -833,19 +797,19 @@
             <div class="col-12">
                 <div class="gallery__items owl-carousel">
                     <!--START GALLERY ITEM-->
-                    <div class="gallery__item"><a href="/images/gallery/gallery__item--01.jpg" class="fancybox__image" data-fancybox="gallery"><img src="/images/gallery/thumb/gallery__item--01.jpg"></a></div>
+                    <div class="gallery__item"><a href="<?php bloginfo('template_directory') ;?>/images/gallery/gallery__item--01.jpg" class="fancybox__image" data-fancybox="gallery"><img src="<?php bloginfo('template_directory') ;?>/images/gallery/thumb/gallery__item--01.jpg"></a></div>
                     <!--END GALLERY ITEM-->
                     <!--START GALLERY ITEM-->
-                    <div class="gallery__item"><a href="/images/gallery/gallery__item--02.jpg" class="fancybox__image" data-fancybox="gallery"><img src="/images/gallery/thumb/gallery__item--02.jpg"></a></div>
+                    <div class="gallery__item"><a href="<?php bloginfo('template_directory') ;?>/images/gallery/gallery__item--02.jpg" class="fancybox__image" data-fancybox="gallery"><img src="<?php bloginfo('template_directory') ;?>/images/gallery/thumb/gallery__item--02.jpg"></a></div>
                     <!--END GALLERY ITEM-->
                     <!--START GALLERY ITEM-->
-                    <div class="gallery__item"><a href="/images/gallery/gallery__item--03.jpg" class="fancybox__image" data-fancybox="gallery"><img src="/images/gallery/thumb/gallery__item--03.jpg"></a></div>
+                    <div class="gallery__item"><a href="<?php bloginfo('template_directory') ;?>/images/gallery/gallery__item--03.jpg" class="fancybox__image" data-fancybox="gallery"><img src="<?php bloginfo('template_directory') ;?>/images/gallery/thumb/gallery__item--03.jpg"></a></div>
                     <!--END GALLERY ITEM-->
                     <!--START GALLERY ITEM-->
-                    <div class="gallery__item"><a href="/images/gallery/gallery__item--04.jpg" class="fancybox__image" data-fancybox="gallery"><img src="/images/gallery/thumb/gallery__item--04.jpg"></a></div>
+                    <div class="gallery__item"><a href="<?php bloginfo('template_directory') ;?>/images/gallery/gallery__item--04.jpg" class="fancybox__image" data-fancybox="gallery"><img src="<?php bloginfo('template_directory') ;?>/images/gallery/thumb/gallery__item--04.jpg"></a></div>
                     <!--END GALLERY ITEM-->
                     <!--START GALLERY ITEM-->
-                    <div class="gallery__item"><a href="/images/gallery/gallery__item--05.jpg" class="fancybox__image" data-fancybox="gallery"><img src="/images/gallery/thumb/gallery__item--05.jpg"></a></div>
+                    <div class="gallery__item"><a href="<?php bloginfo('template_directory') ;?>/images/gallery/gallery__item--05.jpg" class="fancybox__image" data-fancybox="gallery"><img src="<?php bloginfo('template_directory') ;?>/images/gallery/thumb/gallery__item--05.jpg"></a></div>
                     <!--END GALLERY ITEM-->
                 </div>
             </div>
@@ -1052,10 +1016,10 @@
             <div class="row d-flex flex-row justify-content-between align-items-center">
                 <div class="col-lg-2 col-xl-3 d-none d-lg-block d-xl-flex flex-row justify-content-between align-items-center">
                     <div class="footer__logo mb-lg-3 mb-xl-0">
-                        <img src="/images/logo.png" class="mw-100" alt="logo">
+                        <img src="<?php bloginfo('template_directory') ;?>/images/logo.png" class="mw-100" alt="logo">
                     </div>
                     <div class="footer__payments">
-                        <img src="/images/payments.png" class="mw-100" alt="Visa & MasterCard">
+                        <img src="<?php bloginfo('template_directory') ;?>/images/payments.png" class="mw-100" alt="Visa & MasterCard">
                     </div>
                 </div>
                 <div class="col-12 col-lg-10 col-xl-9 d-flex flex-row justify-content-center align-items-center d-lg-block">
@@ -1083,19 +1047,19 @@
                 <div class="col-12 col-lg-6">
                     <div class="footer__contacts d-flex flex-row justify-content-center align-items-center d-lg-block float-lg-right">
                         <div class="d-block d-lg-none footer__logo">
-                            <img src="/images/logo.png" class="mw-100" alt="logo">
+                            <img src="<?php bloginfo('template_directory') ;?>/images/logo.png" class="mw-100" alt="logo">
                         </div>
                         <div class="d-block d-lg-none footer__payments">
-                            <img src="/images/payments.png" class="mw-100" alt="Visa & MasterCard">
+                            <img src="<?php bloginfo('template_directory') ;?>/images/payments.png" class="mw-100" alt="Visa & MasterCard">
                         </div>
                         <a href="tel:87017953233" class="link d-none d-md-inline-block link--black link__phone" title="+7 701 795 32 33">
-                            <img src="/images/icons/icon__phone.png?v=1.1" alt="phone icon"> +7 701 795 32 33
+                            <img src="<?php bloginfo('template_directory') ;?>/images/icons/icon__phone.png?v=1.1" alt="phone icon"> +7 701 795 32 33
                         </a>
                         <a href="#" class="link d-none d-md-inline-block link__social link__facebook" title="Facebook">
-                            <img src="/images/icons/icon__facebook.png" alt="Facebook icon">
+                            <img src="<?php bloginfo('template_directory') ;?>/images/icons/icon__facebook.png" alt="Facebook icon">
                         </a>
                         <a href="#" class="link d-none d-md-inline-block link__social link__instagram" title="Instagram">
-                            <img src="/images/icons/icon__instagram.png" alt="Instagram icon">
+                            <img src="<?php bloginfo('template_directory') ;?>/images/icons/icon__instagram.png" alt="Instagram icon">
                         </a>
                     </div>
                 </div>
@@ -1173,11 +1137,4 @@
 <div id="gotop-btn"></div>
 <!--START GO TOP BTN-->
 
-<!--SCRIPTS-->
-<script src="/js/libs/jquery-3.3.1.min.js"></script>
-<script src="/js/libs/bootstrap.min.js"></script>
-<script src="/js/libs/jquery.fancybox.min.js"></script>
-<script src="/js/libs/jquery.inputmask.min.js"></script>
-<script src="/js/libs/owl.carousel.min.js"></script>
-<script src="/js/main.min.js?v=1.1"></script>
 </body>

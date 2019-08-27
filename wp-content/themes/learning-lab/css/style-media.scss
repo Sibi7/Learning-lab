@@ -220,7 +220,7 @@
 				padding: 55px 35px 35px;
 				&__icons{
 					&::before{
-						background: url(/images/backgrounds/program__item__icons__background.png) no-repeat center top / contain;
+						background: url(../images/backgrounds/program__item__icons__background.png) no-repeat center top / contain;
 						width: 400px;
 					}
 				}
@@ -255,7 +255,7 @@
 					margin-top: 68px;
 					&::before{
 						width: 420px;
-						background: url(/images/backgrounds/program__item__icons__background.png) no-repeat center top / contain;
+						background: url(../images/backgrounds/program__item__icons__background.png) no-repeat center top / contain;
 					}
 				}
 				&__icon{
@@ -414,7 +414,7 @@
 					&__block{
 						min-height: 92px;
 						&::before{
-							background: url(/images/backgrounds/program__item__icons__background.png) no-repeat center top / contain;
+							background: url(../images/backgrounds/program__item__icons__background.png) no-repeat center top / contain;
 							width: 380px;
 						}
 					}
@@ -723,7 +723,7 @@
 	#section__first-screen{
 		padding-top: 100px;
 		height: 500px;
-		background: #366eb0 url(/images/backgrounds/first-screen__background--mobile.jpg) no-repeat center center / cover;
+		background: #366eb0 url(../images/backgrounds/first-screen__background--mobile.jpg) no-repeat center center / cover;
 		h1{
 			text-align: center;
 			font-size: 22px;
@@ -1033,7 +1033,7 @@
 	#section__unique-training{
 		margin-top: -40px;
 		&::before{
-			background: url(/images/backgrounds/have-time-banner__background--mobile.png) no-repeat center top;
+			background: url(../images/backgrounds/have-time-banner__background--mobile.png) no-repeat center top;
 			top: -392px;
 		}
 		.section{

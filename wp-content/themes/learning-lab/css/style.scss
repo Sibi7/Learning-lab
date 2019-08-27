@@ -53,7 +53,7 @@ input.form-control{
 			top: calc(50% - 22px);
 			width: 44px;
 			height: 44px;
-			background: url(/images/icons/icon__arrow-right.png) no-repeat center center / contain;
+			background: url(../images/icons/icon__arrow-right.png) no-repeat center center / contain;
 		}
 
 	}
@@ -238,7 +238,7 @@ input.form-control{
 .play-video-btn{
 	width: 60px;
 	height: 60px;
-	background: url(/images/icons/icon__play-video.png) no-repeat center center / contain;
+	background: url(../images/icons/icon__play-video.png) no-repeat center center / contain;
 	left: calc(50% - 30px);
 	top: calc(50% - 30px);
 	opacity: 0.7;
@@ -291,7 +291,7 @@ header{
 
 // FIRST SCREEN
 #section__first-screen{
-	background: $color--secondary url(/images/backgrounds/first-screen__background.jpg) no-repeat center center / cover;
+	background: $color--secondary url(../images/backgrounds/first-screen__background.jpg) no-repeat center center / cover;
 	height: 640px;
 	padding-top: 180px;
 	h1{
@@ -349,13 +349,13 @@ header{
 			&__icon{
 				height: 100%;
 				&--online{
-					background: url(/images/icons/icon__laptop.png) no-repeat center center;
+					background: url(../images/icons/icon__laptop.png) no-repeat center center;
 				}
 				&--guarantee{
-					background: url(/images/icons/icon__money.png) no-repeat center center;
+					background: url(../images/icons/icon__money.png) no-repeat center center;
 				}
 				&--beginner{
-					background: url(/images/icons/icon__goal.png) no-repeat center center;
+					background: url(../images/icons/icon__goal.png) no-repeat center center;
 				}
 			}
 			.row{
@@ -391,7 +391,7 @@ header{
 			left: -20px;
 			top: -10px;
 			z-index: 1;
-			background: url(/images/icons/icon__question.png) no-repeat center center / contain;
+			background: url(../images/icons/icon__question.png) no-repeat center center / contain;
 		}
 	}
 }
@@ -403,7 +403,7 @@ header{
 			padding: 65px 35px 35px;
 			height: 100%;
 			min-height: 265px;
-			background: url(/images/backgrounds/who-hom__item__background.png) no-repeat center top / contain;
+			background: url(../images/backgrounds/who-hom__item__background.png) no-repeat center top / contain;
 			&__title{
 				font-size: 17px;
 				margin-bottom: 10px;
@@ -458,7 +458,7 @@ header{
 				&::before{
 					width: 650px;
 					height: 100%;
-					background: url(/images/backgrounds/program__item__icons__background.png) no-repeat center top;
+					background: url(../images/backgrounds/program__item__icons__background.png) no-repeat center top;
 					position: absolute;
 					right: 0;
 					top: 0;
@@ -484,13 +484,13 @@ header{
 					height: 100%;
 				}
 				&--video::before{
-					background: url(/images/icons/icon__video.png) no-repeat left center;
+					background: url(../images/icons/icon__video.png) no-repeat left center;
 				}
 				&--test::before{
-					background: url(/images/icons/icon__test.png) no-repeat left center;
+					background: url(../images/icons/icon__test.png) no-repeat left center;
 				}
 				&--trainer::before{
-					background: url(/images/icons/icon__trainer.png) no-repeat left center;
+					background: url(../images/icons/icon__trainer.png) no-repeat left center;
 				}
 			}
 			&__lessons{
@@ -512,7 +512,7 @@ header{
 						display: block;
 						left: 0;
 						top: 0;
-						background: url(/images/icons/icon__arrow-down.png) no-repeat center center;
+						background: url(../images/icons/icon__arrow-down.png) no-repeat center center;
 						@include transition(transform 0.4s);
 					}
 				}
@@ -564,7 +564,7 @@ header{
 				top: calc(50% - 165px);
 				content: '';
 				display: block;
-				background: url(/images/backgrounds/get-program-banner__background.png) no-repeat center center / contain;
+				background: url(../images/backgrounds/get-program-banner__background.png) no-repeat center center / contain;
 			}
 		}
 		&__title{
@@ -646,7 +646,7 @@ header{
 		&__title{
 			position: relative;
 			&::before{
-				background: url(/images/backgrounds/reasons__title__background.png) no-repeat left center;
+				background: url(../images/backgrounds/reasons__title__background.png) no-repeat left center;
 				position: absolute;
 				width: 150px;
 				height: 220px;
@@ -693,28 +693,28 @@ header{
 				height: 90px;
 				width: 100%;
 				&--comfortable{
-					background: url(/images/icons/icon__website.png) no-repeat right top;
+					background: url(../images/icons/icon__website.png) no-repeat right top;
 				}
 				&--understandable{
-					background: url(/images/icons/icon__puzzle.png) no-repeat right top;
+					background: url(../images/icons/icon__puzzle.png) no-repeat right top;
 				}
 				&--useful{
-					background: url(/images/icons/icon__save-money.png) no-repeat right top;
+					background: url(../images/icons/icon__save-money.png) no-repeat right top;
 				}
 				&--available{
-					background: url(/images/icons/icon__movie.png) no-repeat right top;
+					background: url(../images/icons/icon__movie.png) no-repeat right top;
 				}
 				&--unique{
-					background: url(/images/icons/icon__fingerprint.png) no-repeat right top;
+					background: url(../images/icons/icon__fingerprint.png) no-repeat right top;
 				}
 				&--interesting{
-					background: url(/images/icons/icon__testimonial.png) no-repeat right top;
+					background: url(../images/icons/icon__testimonial.png) no-repeat right top;
 				}
 				&--fast{
-					background: url(/images/icons/icon__calendar.png) no-repeat right top;
+					background: url(../images/icons/icon__calendar.png) no-repeat right top;
 				}
 				&--concrete{
-					background: url(/images/icons/icon__idea.png) no-repeat right top;
+					background: url(../images/icons/icon__idea.png) no-repeat right top;
 				}
 			}
 		}
@@ -794,7 +794,7 @@ header{
 	position: relative;
 	z-index: 1;
 	&::before{
-		background: url(/images/backgrounds/have-time-banner__background.png?v=1.1) no-repeat center top;
+		background: url(../images/backgrounds/have-time-banner__background.png?v=1.1) no-repeat center top;
 		height: 840px;
 		position: absolute;
 		z-index: 1;
@@ -827,13 +827,13 @@ header{
 			height: 350px;
 			position: relative;
 			z-index: 2;
-			background: url(/images/other/unique-training__video__preview.png) no-repeat center center / cover;
+			background: url(../images/other/unique-training__video__preview.png) no-repeat center center / cover;
 			@include border-radius(7px);
 			&__play-btn{
 				position: absolute;
 				width: 80px;
 				height: 80px;
-				background: url(/images/icons/icon__play-video.png) no-repeat center center / contain;
+				background: url(../images/icons/icon__play-video.png) no-repeat center center / contain;
 				left: calc(50% - 40px);
 				top: calc(50% - 40px);
 				opacity: 0.7;
@@ -880,7 +880,7 @@ header{
 					&::before{
 						width: 650px;
 						height: 100%;
-						background: url(/images/backgrounds/program__item__icons__background.png) no-repeat center top;
+						background: url(../images/backgrounds/program__item__icons__background.png) no-repeat center top;
 						position: absolute;
 						right: 0;
 						top: 0;
@@ -937,13 +937,13 @@ header{
 				margin-bottom: 25px;
 				@include border-radius(7px);
 				&--01{
-					background: url(/images/last-video/video__01.png) no-repeat center center / cover;
+					background: url(../images/last-video/video__01.png) no-repeat center center / cover;
 				}
 				&--02{
-					background: url(/images/last-video/video__01.png) no-repeat center center / cover;
+					background: url(../images/last-video/video__01.png) no-repeat center center / cover;
 				}
 				&--03{
-					background: url(/images/last-video/video__01.png) no-repeat center center / cover;
+					background: url(../images/last-video/video__01.png) no-repeat center center / cover;
 				}
 			}
 			&__title{
@@ -1028,7 +1028,7 @@ header{
 			right: -230px;
 			top: -60px;
 			content: '';
-			background: url(/images/backgrounds/demonization-banner__background.png) no-repeat center center / contain;
+			background: url(../images/backgrounds/demonization-banner__background.png) no-repeat center center / contain;
 		}
 		&__title{
 			margin-bottom: 10px;
@@ -1062,13 +1062,13 @@ header{
 				z-index: 1;
 				@include border-radius(7px);
 				&--01{
-					background: url(/images/reviews/review__item--01.jpg) no-repeat center center / cover;
+					background: url(../images/reviews/review__item--01.jpg) no-repeat center center / cover;
 				}
 				&--02{
-					background: url(/images/reviews/review__item--01.jpg) no-repeat center center / cover;
+					background: url(../images/reviews/review__item--01.jpg) no-repeat center center / cover;
 				}
 				&--03{
-					background: url(/images/reviews/review__item--01.jpg) no-repeat center center / cover;
+					background: url(../images/reviews/review__item--01.jpg) no-repeat center center / cover;
 				}
 			}
 			&__name, &__post{
@@ -1081,7 +1081,7 @@ header{
 
 // GALLERY
 #section__gallery{
-	background: url(/images/backgrounds/galley__background.png) no-repeat center top;
+	background: url(../images/backgrounds/galley__background.png) no-repeat center top;
 	padding-top: 250px;
 	min-height: 870px;
 	margin-top: -195px;
@@ -1107,7 +1107,7 @@ header{
 					opacity: 0;
 					position: absolute;
 					display: block;
-					background: url(/images/icons/icon__zoom.png) no-repeat center center / contain;
+					background: url(../images/icons/icon__zoom.png) no-repeat center center / contain;
 					@include transform(scale(0.4));
 					@include transition(all 0.4s);
 				}
@@ -1135,7 +1135,7 @@ header{
 			top: -40px;
 			content: '';
 			display: block;
-			background: url(/images/backgrounds/results__background.png) no-repeat center center / contain;
+			background: url(../images/backgrounds/results__background.png) no-repeat center center / contain;
 		}
 	}
 	.section{
@@ -1243,7 +1243,7 @@ header{
 						top: 0;
 						content: '';
 						display: block;
-						background: url(/images/icons/icon__pluse.png) no-repeat center center;
+						background: url(../images/icons/icon__pluse.png) no-repeat center center;
 						@include transition(transform 0.4s);
 					}
 				}
@@ -1358,7 +1358,7 @@ footer{
 		position: absolute;
 		left: calc(50% - 10px);
 		top: calc(50% - 10px);
-		background: url(/images/icons/icon__arrow-up.svg) no-repeat center center / 18px 20px;
+		background: url(../images/icons/icon__arrow-up.svg) no-repeat center center / 18px 20px;
 	}
 	&.show{
 		bottom: 60px;
