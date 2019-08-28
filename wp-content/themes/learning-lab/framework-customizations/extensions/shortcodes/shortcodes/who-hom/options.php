@@ -8,18 +8,26 @@
 $options = [
     //ключ - slug опции, к которому будем обращаться во view
     //значение - массив конфигураций для опции
-
-    'questions' => array(
+    'title' => [
+        'type' => 'text',
+        'label' => 'Заголовок секции',
+        'value' => 'КОМУ ПОДОЙДЕТ КУРС?'
+    ],
+    'who_hom' => array(
         'type' => 'addable-popup',
-        'label' => __('Вопрос', '{domain}'),
-        'template' => '{{- desk }}',
+        'label' => __('Добавить блок', '{domain}'),
+        'template' => '{{- title }}',
         'size' => 'large', // small, medium, large
-        'add-button-text' => __('Добавить', '{domain}'),
+        'add-button-text' => __('+', '{domain}'),
         'sortable' => true,
         'popup-options' => array(
+            'title' => [
+                'type' => 'text',
+                'label' => 'Заголовок'
+            ],
             'desk' => array(
                 'type' => 'wp-editor',
-                'label' => __('Добавить вопрос', '{domain}'),
+                'label' => __('Описание', '{domain}'),
             ),
         ),
     ),

@@ -17,59 +17,7 @@
 
 
 
-<!--START SECTION WHO HOM-->
-<section class="section" id="section__who-hom">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="section__title text-uppercase">Кому подойдет курс?</h2>
-            </div>
-        </div>
-        <div class="row d-flex flex-row justify-content-between">
-            <!--START WHO HOM ITEM-->
-            <div class="col-md-6 col-xl-3">
-                <div class="who-hom__item text-center">
-                    <div class="who-hom__item__title text-uppercase"><b>Преподавателям</b></div>
-                    <div class="who-hom__item__text">
-                        <p>Вы освоите новейшие методологии обучения и сможите применитьих в формате онлайн,обучив при этом слушателей</p>
-                    </div>
-                </div>
-            </div>
-            <!--END WHO HOM ITEM-->
-            <!--START WHO HOM ITEM-->
-            <div class="col-md-6 col-xl-3">
-                <div class="who-hom__item text-center">
-                    <div class="who-hom__item__title text-uppercase"><b>биснес-тренерам</b></div>
-                    <div class="who-hom__item__text">
-                        <p>Вы освоите новейшие методологии обучения и сможите применитьих в формате онлайн,обучив при этом слушателей</p>
-                    </div>
-                </div>
-            </div>
-            <!--END WHO HOM ITEM-->
-            <!--START WHO HOM ITEM-->
-            <div class="col-md-6 col-xl-3">
-                <div class="who-hom__item text-center">
-                    <div class="who-hom__item__title text-uppercase"><b>репетиторам</b></div>
-                    <div class="who-hom__item__text">
-                        <p>Вы освоите новейшие методологии обучения и сможите применитьих в формате онлайн,обучив при этом слушателей</p>
-                    </div>
-                </div>
-            </div>
-            <!--END WHO HOM ITEM-->
-            <!--START WHO HOM ITEM-->
-            <div class="col-md-6 col-xl-3">
-                <div class="who-hom__item text-center">
-                    <div class="who-hom__item__title text-uppercase"><b>видео-мейкерам</b></div>
-                    <div class="who-hom__item__text">
-                        <p>Вы освоите новейшие методологии обучения и сможите применитьих в формате онлайн,обучив при этом слушателей</p>
-                    </div>
-                </div>
-            </div>
-            <!--END WHO HOM ITEM-->
-        </div>
-    </div>
-</section>
-<!--END SECTION WHO HOM-->
+
 
 <!--START SECTION PROGRAM-->
 <section class="section" id="section__program">
