@@ -472,23 +472,15 @@ header{
 				font-weight: 600;
 				z-index: 2;
 				position: relative;
-				&::before{
-					content: '';
+				&--before{
 					display: block;
 					position: absolute;
 					left: 0;
+					background-repeat: no-repeat;
+					background-position: center;
 					top: 0;
 					width: 60px;
 					height: 100%;
-				}
-				&--video::before{
-					background: url(../images/icons/icon__video.png) no-repeat left center;
-				}
-				&--test::before{
-					background: url(../images/icons/icon__test.png) no-repeat left center;
-				}
-				&--trainer::before{
-					background: url(../images/icons/icon__trainer.png) no-repeat left center;
 				}
 			}
 			&__lessons{

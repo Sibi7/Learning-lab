@@ -1,5 +1,5 @@
-<?php if ( ! defined( 'FW' ) ) {
-    die( 'Forbidden' );
+<?php if (!defined('FW')) {
+    die('Forbidden');
 }
 /*
   * Верстка шорткода
@@ -8,13 +8,11 @@
 
 ?>
 
-
-
 <section class="section" id="section__who-hom">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="section__title text-uppercase"><?=$atts ['title'] ?></h2>
+                <h2 class="section__title text-uppercase"><?= $atts ['title'] ?></h2>
             </div>
         </div>
         <div class="row d-flex flex-row justify-content-between">
