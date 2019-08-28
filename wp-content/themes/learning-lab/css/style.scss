@@ -351,15 +351,6 @@ header{
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				&--online{
-					background: url(../images/icons/icon__laptop.png) no-repeat center center;
-				}
-				&--guarantee{
-					background: url(../images/icons/icon__money.png) no-repeat center center;
-				}
-				&--beginner{
-					background: url(../images/icons/icon__goal.png) no-repeat center center;
-				}
 			}
 			.row{
 				margin: 0;
