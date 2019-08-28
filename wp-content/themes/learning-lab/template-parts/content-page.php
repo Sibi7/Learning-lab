@@ -15,54 +15,7 @@
 
 
 
-<!--START SECTION QUESTIONS-->
-<section class="section" id="section__questions">
-    <div class="container">
-        <div class="row">
-            <!--START QUESTIONS ITEM-->
-            <div class="col-md-6 col-xl-3">
-                <div class="questions__item">
-                    <div class="questions__item__icon"></div>
-                    <div class="questions__item__text">
-                        Вы опасаетесь, что <b>ваши видео скачают</b> перестанут учиться у вас?
-                    </div>
-                </div>
-            </div>
-            <!--END QUESTIONS ITEM-->
-            <!--START QUESTIONS ITEM-->
-            <div class="col-md-6 col-xl-3">
-                <div class="questions__item">
-                    <div class="questions__item__icon"></div>
-                    <div class="questions__item__text">
-                        Вы цените очные занятия, но <b>приходится проводить традиционные лекции-монологи</b>?
-                    </div>
-                </div>
-            </div>
-            <!--END QUESTIONS ITEM-->
-            <!--START QUESTIONS ITEM-->
-            <div class="col-md-6 col-xl-3">
-                <div class="questions__item">
-                    <div class="questions__item__icon"></div>
-                    <div class="questions__item__text">
-                        Вы хотите <b>преподавать слушателям в других городах</b>, по всему Казахстану?
-                    </div>
-                </div>
-            </div>
-            <!--END QUESTIONS ITEM-->
-            <!--START QUESTIONS ITEM-->
-            <div class="col-md-6 col-xl-3">
-                <div class="questions__item">
-                    <div class="questions__item__icon"></div>
-                    <div class="questions__item__text">
-                        Вы всегда хотели <b>свой онлайн-курс</b> но не знали с чего начать?
-                    </div>
-                </div>
-            </div>
-            <!--END QUESTIONS ITEM-->
-        </div>
-    </div>
-</section>
-<!--END SECTION QUESTIONS-->
+
 
 <!--START SECTION WHO HOM-->
 <section class="section" id="section__who-hom">

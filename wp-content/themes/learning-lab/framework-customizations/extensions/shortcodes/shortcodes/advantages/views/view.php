@@ -8,7 +8,6 @@
 
 ?>
 
-    <!--START SECTION ADVANTAGES-->
     <section id="section__advantages">
         <div class="container">
             <div class="row">
@@ -34,5 +33,3 @@
             </div>
         </div>
     </section>
-    <!--END SECTION ADVANTAGES-->
-<?php fw_print($atts); ?>

@@ -362,12 +362,6 @@ header {
       display: flex;
       align-items: center;
       justify-content: center; }
-      #section__advantages .advantages__item__icon--online {
-        background: url(../images/icons/icon__laptop.png) no-repeat center center; }
-      #section__advantages .advantages__item__icon--guarantee {
-        background: url(../images/icons/icon__money.png) no-repeat center center; }
-      #section__advantages .advantages__item__icon--beginner {
-        background: url(../images/icons/icon__goal.png) no-repeat center center; }
     #section__advantages .advantages__item .row {
       margin: 0; }
 
@@ -386,6 +380,8 @@ header {
       padding: 10px;
       background: #fff;
       position: relative; }
+      #section__questions .questions__item__text p {
+        margin: 0; }
     #section__questions .questions__item__icon {
       width: 57px;
       height: 57px;
