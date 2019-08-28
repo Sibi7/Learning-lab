@@ -594,22 +594,22 @@ header{
 					top: calc(50% - 2px);
 					@include border-radius(2px);
 				}
-				&--hidden-line::after{
+				&--4::after{
 					display: none;
 				}
 			}
 			&__point{
-				&--02{
+				&--2{
 					background: #edf7fc;
 					width: 76px;
 					height: 76px;
 				}
-				&--03{
+				&--3{
 					background: #dcedf4;
 					width: 88px;
 					height: 88px;
 				}
-				&--04{
+				&--4{
 					background: #cddde4;
 					width: 100px;
 					height: 100px;
@@ -683,6 +683,9 @@ header{
 			&__icon{
 				height: 90px;
 				width: 100%;
+				display: flex;
+				justify-content: flex-end;
+				align-items: flex-start;
 				&--comfortable{
 					background: url(../images/icons/icon__website.png) no-repeat right top;
 				}
