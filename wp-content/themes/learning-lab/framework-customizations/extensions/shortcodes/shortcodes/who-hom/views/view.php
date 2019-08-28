@@ -35,4 +35,3 @@
         </div>
     </div>
 </section>
-<?php fw_print($atts); ?>
