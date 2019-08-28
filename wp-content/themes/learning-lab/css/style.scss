@@ -348,6 +348,9 @@ header{
 			}
 			&__icon{
 				height: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
 				&--online{
 					background: url(../images/icons/icon__laptop.png) no-repeat center center;
 				}
