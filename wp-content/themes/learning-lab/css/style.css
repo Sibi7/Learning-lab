@@ -312,6 +312,7 @@ header {
   padding-top: 180px; }
   #section__first-screen h1 {
     font-weight: 100;
+    text-transform: uppercase;
     font-size: 48px;
     margin-bottom: 20px; }
     #section__first-screen h1 b {

@@ -66,7 +66,7 @@ function artcraft_scripts() {
 	wp_enqueue_script( 'artcraft-jquery', get_template_directory_uri() . '/js/libs/jquery-3.3.1.min.js', [], '', true );
 	wp_enqueue_script( 'artcraft-bootstrap', get_template_directory_uri() . '/js/libs/bootstrap.min.js', [], '', true );
 	wp_enqueue_script( 'artcraft-fancybox', get_template_directory_uri() . '/js/libs/jquery.fancybox.min.js', [], '', true );
-	wp_enqueue_script( 'artcraft-inputmask', get_template_directory_uri() . 'js/libs/jquery.inputmask.min.js', [], '', true );
+	wp_enqueue_script( 'artcraft-inputmask', get_template_directory_uri() . '/js/libs/jquery.inputmask.min.js', [], '', true );
 	wp_enqueue_script( 'artcraft-carousel', get_template_directory_uri() . '/js/libs/owl.carousel.min.js', [], '', true );
 	wp_enqueue_script( 'artcraft-main', get_template_directory_uri() . '/js/main.min.js?v=1.1', [], '', true );
 

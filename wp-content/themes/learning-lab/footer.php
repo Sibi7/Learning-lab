@@ -10,7 +10,7 @@
  */
 ?>
 
-<?php wp_footer(); ?>
+
 <!--START FOOTER-->
 <footer>
     <div class="footer__top">
@@ -75,6 +75,6 @@
     </div>
 </footer>
 <!--END FOOTER-->
-
+<?php wp_footer(); ?>
 </body>
 </html>

@@ -39,7 +39,7 @@
 					font-size: 12px;
 					padding-left: 45px;
 					margin: 0 15px;
-					&::before{
+					&--before{
 						width: 40px;
 						@include background-size(contain);
 					}
@@ -262,7 +262,7 @@
 					font-size: 12px;
 					padding-left: 45px;
 					margin: 0 15px;
-					&::before{
+					&--before{
 						width: 40px;
 						@include background-size(contain);
 					}
@@ -837,8 +837,9 @@
 					font-size: 11px;
 					padding-left: 35px;
 					margin: 0 13px;
-					&::before{
+					&--before{
 						width: 30px;
+						@include background-size(contain);
 					}
 					&::after{
 						position: absolute;

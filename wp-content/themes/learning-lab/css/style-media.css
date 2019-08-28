@@ -24,7 +24,7 @@
     font-size: 12px;
     padding-left: 45px;
     margin: 0 15px; }
-    #section__program .program__item__icon::before {
+    #section__program .program__item__icon--before {
       width: 40px;
       -webkit-background-size: contain;
       -moz-background-size: contain;
@@ -151,7 +151,7 @@
       font-size: 12px;
       padding-left: 45px;
       margin: 0 15px; }
-      #section__program .program__item__icon::before {
+      #section__program .program__item__icon--before {
         width: 40px;
         -webkit-background-size: contain;
         -moz-background-size: contain;
@@ -541,8 +541,13 @@
       font-size: 11px;
       padding-left: 35px;
       margin: 0 13px; }
-      #section__program .program__item__icon::before {
-        width: 30px; }
+      #section__program .program__item__icon--before {
+        width: 30px;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -ms-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain; }
       #section__program .program__item__icon::after {
         position: absolute;
         height: 100%;
