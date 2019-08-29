@@ -23,59 +23,9 @@
 
 
 
-<!--START SECTION HAVE TIME BANNER-->
-<section class="section" id="section__have-time-banner">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="section__title text-uppercase">Успей купить</h2>
-                <div class="have-time-banner__deadline">
-                    <div class="have-time-banner__deadline__price">
-                        20 000
-                        <div class="have-time-banner__deadline__old-price text-right">
-                            <span>цена снижена до 30 августа</span>
-                            <br>
-                            <b>35 000 <span>тг</span></b>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="have-time-banner__form">
-            <form class="d-block" onsubmit="send_order(this);return false;">
-                <div class="d-flex flex-row justify-content-center align-items-center have-time-banner__input-groups">
-                    <div class="input-group">
-                        <input type="text" class="form-control" name="name" placeholder="Имя" aria-label="Имя">
-                    </div>
-                    <div class="input-group">
-                        <input type="text" class="form-control" name="phone" placeholder="Телефон" aria-label="Телефон" required>
-                    </div>
-                    <input type="hidden" name="type" value="Форма со скидкой">
-                    <button type="submit" class="btn btn-primary" title="Заказать звонок">Заказать звонок</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</section>
-<!--END SECTION HAVE TIME BANNER-->
 
-<!--START SECTION UNIQUE TRAINING-->
-<section class="section" id="section__unique-training">
-    <div class="container">
-        <div class="row d-flex flex-row justify-content-between align-items-center">
-            <div class="col-md-12 col-lg-5">
-                <h2 class="section__title text-uppercase text-center text-lg-left">чем этот тренинг <br><b>уникален</b></h2>
-                <div class="section__undertitle text-center text-lg-left">Посмотрите видео,это займет не <br>более 2х минут</div>
-            </div>
-            <div class="col-md-12 col-lg-7">
-                <div class="unique-training__video">
-                    <a class="unique-training__video__play-btn fancybox__video" data-height="200px" href="https://www.youtube.com/embed/_sI_Ps7JSEk?autoplay=1" title="Воспроизвести"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--END SECTION UNIQUE TRAINING-->
+
+
 
 <!--START SECTION TRUST-->
 <section class="section" id="section__trust">
