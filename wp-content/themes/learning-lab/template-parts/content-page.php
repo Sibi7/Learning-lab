@@ -35,62 +35,9 @@
 
 
 
-<!--START SECTION DEMONIZATION BANNER-->
-<section class="section" id="section__demonization-banner">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="banner-block text-center">
-                    <div class="banner-block__title text-uppercase">Остались сомнения?</div>
-                    <div class="banner-block__undertitle text-uppercase">получите доступ к безопасному вебенару или очному семинару и убедитесь<br class="d-none d-xl-inline">в ценности нашего курса</div>
-                    <div class="banner-block__btn">
-                        <button class="btn btn-primary" title="Получить доступ" data-toggle="modal" data-modal-title="Получить доступ к вебинару или очному семинару" data-target="#send-order-modal">Получить доступ</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--END SECTION DEMONIZATION BANNER-->
 
-<!--START SECTION REVIEWS-->
-<section class="section" id="section__reviews">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="section__title text-uppercase">Отзывы наших клиентов</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="reviews__items owl-carousel">
-                    <!--START REVIEWS ITEM-->
-                    <div class="reviews__item text-center">
-                        <div class="reviews__item__video reviews__item__video--01"><a class="play-video-btn fancybox__video" href="https://www.youtube.com/embed/_sI_Ps7JSEk?autoplay=1" title="Воспроизвести"></a></div>
-                        <div class="reviews__item__name"><b>Мурат Дощанов</b></div>
-                        <div class="reviews__item__post">Бизнес-тренер</div>
-                    </div>
-                    <!--END REVIEWS ITEM-->
-                    <!--START REVIEWS ITEM-->
-                    <div class="reviews__item text-center">
-                        <div class="reviews__item__video reviews__item__video--02"><a class="play-video-btn fancybox__video" href="https://www.youtube.com/embed/_sI_Ps7JSEk?autoplay=1" title="Воспроизвести"></a></div>
-                        <div class="reviews__item__name"><b>Мурат Дощанов</b></div>
-                        <div class="reviews__item__post">Бизнес-тренер</div>
-                    </div>
-                    <!--END REVIEWS ITEM-->
-                    <!--START REVIEWS ITEM-->
-                    <div class="reviews__item text-center">
-                        <div class="reviews__item__video reviews__item__video--03"><a class="play-video-btn fancybox__video" href="https://www.youtube.com/embed/_sI_Ps7JSEk?autoplay=1" title="Воспроизвести"></a></div>
-                        <div class="reviews__item__name"><b>Мурат Дощанов</b></div>
-                        <div class="reviews__item__post">Бизнес-тренер</div>
-                    </div>
-                    <!--END REVIEWS ITEM-->
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--END SECTION REVIEWS-->
+
+
 
 <!--START SECTION GALLERY-->
 <section class="section" id="section__gallery">
