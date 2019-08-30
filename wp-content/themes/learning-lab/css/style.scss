@@ -900,6 +900,9 @@ header{
 				z-index: 3;
 				@include box-shadow(0 0 40px 40px #fff);
 			}
+          &:nth-child(2n){
+            flex-direction: row-reverse!important;
+          }
 		}
 	}
 }

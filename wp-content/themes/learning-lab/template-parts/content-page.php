@@ -27,63 +27,7 @@
 
 
 
-<!--START SECTION TRUST-->
-<section class="section" id="section__trust">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="section__title text-uppercase">Кто мы и почему нам стоит доверять</h2>
-                <div class="section__undertitle text-center">Лаборатория решений для онлайн обучения (e-Learning Lab)</div>
-            </div>
-        </div>
-        <!--START TRUST ITEM-->
-        <div class="row trust__item trust__item--reverse d-flex flex-row justify-content-between align-items-center">
-            <div class="col-md-6 trust__item__text-block">
-                <div class="trust__item__text">
-                    <p><b>Создатели первого в Казахстане е-Университета</b> <a href="http://narxoz.online/" target="_blank" class="link link--blue" title="narxoz.online">narxoz.online</a>, где более 1.000 студентов бакалавриата в шести городах страны учатся 100% онлайн</p>
-                </div>
-            </div>
-            <div class="col-md-6 trust__item__logo">
-                <div class="trust__item__logo__block d-flex flex-row justify-content-center align-items-center">
-                    <img src="<?php bloginfo('template_directory') ;?>/images/narxoz__logo.png" alt="Narxoz logo">
-                </div>
-            </div>
-            <div class="trust__item__shadow"></div>
-        </div>
-        <!--END TRUST ITEM-->
-        <!--START TRUST ITEM-->
-        <div class="row trust__item d-flex flex-row justify-content-between align-items-center">
-            <div class="col-md-6 trust__item__logo">
-                <div class="trust__item__logo__block trust__item__logo__block--left d-flex flex-row justify-content-center align-items-center">
-                    <img src="<?php bloginfo('template_directory') ;?>/images/narxoz__logo.png" alt="Narxoz logo">
-                </div>
-            </div>
-            <div class="col-md-6 trust__item__text-block">
-                <div class="trust__item__text">
-                    <p><b>Создатели корпоративного онлайн университета крупнейшей</b> строительной компании <a href="#" target="_blank" class="link link--blue" title="BI Group">BI Group</a></p>
-                </div>
-            </div>
-            <div class="trust__item__shadow"></div>
-        </div>
-        <!--END TRUST ITEM-->
-        <!--START TRUST ITEM-->
-        <div class="row trust__item trust__item--reverse d-flex flex-row justify-content-between align-items-center">
-            <div class="col-md-6 trust__item__text-block">
-                <div class="trust__item__text">
-                    <p><b>Создатели одного из первых в мире видео-курсов для пользователей Whatsapp</b> под названием <a href="#" class="link link--blue">"Whatsapp для апашек"</a> на русском и казахском языках</p>
-                </div>
-            </div>
-            <div class="col-md-6 trust__item__logo">
-                <div class="trust__item__logo__block d-flex flex-row justify-content-center align-items-center">
-                    <img src="<?php bloginfo('template_directory') ;?>/images/narxoz__logo.png" alt="Narxoz logo">
-                </div>
-            </div>
-            <div class="trust__item__shadow"></div>
-        </div>
-        <!--END TRUST ITEM-->
-    </div>
-</section>
-<!--END SECTION TRUST-->
+
 
 <!--START SECTION LAST VIDEO-->
 <section class="section" id="section__last-video">

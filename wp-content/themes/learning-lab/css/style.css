@@ -815,6 +815,8 @@ header {
     -ms-box-shadow: 0 0 40px 40px #fff;
     -o-box-shadow: 0 0 40px 40px #fff;
     box-shadow: 0 0 40px 40px #fff; }
+  #section__trust .trust__item:nth-child(2n) {
+    flex-direction: row-reverse !important; }
 
 #section__last-video .last-video__item {
   position: relative; }
