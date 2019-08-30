@@ -29,100 +29,11 @@
 
 
 
-<!--START SECTION LAST VIDEO-->
-<section class="section" id="section__last-video">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="section__title text-uppercase">Наши последние видео</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="last-video__items owl-carousel">
-                    <!--START LAST VIDEO ITEM-->
-                    <div class="last-video__item">
-                        <div class="last-video__item__preview last-video__item__preview--01"><a class="play-video-btn fancybox__video" href="https://www.youtube.com/embed/_sI_Ps7JSEk?autoplay=1" title="Воспроизвести"></a></div>
-                        <div class="last-video__item__title text-center"><b>Сатты Жулдыз</b></div>
-                        <div class="last-video__item__text text-center">
-                            <p>Компания по продаже лотереи попросила нас обучить 3.000 продавцов лотерейных билетов по всему Казахстану работе с оборудованием и программой по продаже билетов. Мы создали обучающий видео-курс, доступный на любом телефоне. Опрос показал, что продавцам в этом курсе больше всего понравилось, что он доступен любому с телефона, его лаконичность и простота.</p>
-                        </div>
-                    </div>
-                    <!--END LAST VIDEO ITEM-->
-                    <!--START LAST VIDEO ITEM-->
-                    <div class="last-video__item">
-                        <div class="last-video__item__preview last-video__item__preview--02"><a class="play-video-btn fancybox__video" href="https://www.youtube.com/embed/_sI_Ps7JSEk?autoplay=1" title="Воспроизвести"></a></div>
-                        <div class="last-video__item__title text-center"><b>Английский легко</b></div>
-                        <div class="last-video__item__text text-center">
-                            <p>В изучении иностранного языка сложнее всего - это преодолеть психологический барьер. Часто барьер связан с наличием акцента в произношении. Наш мини-курс "Английский легко" объясняет зрителю, почему акцент появляется и демонстрирует несколько простых упражнений, как избавиться от акцента и говорить на английском с лондонским или нью-йоркским говором.</p>
-                        </div>
-                    </div>
-                    <!--END LAST VIDEO ITEM-->
-                    <!--START LAST VIDEO ITEM-->
-                    <div class="last-video__item">
-                        <div class="last-video__item__preview last-video__item__preview--03"><a class="play-video-btn fancybox__video" href="https://www.youtube.com/embed/_sI_Ps7JSEk?autoplay=1" title="Воспроизвести"></a></div>
-                        <div class="last-video__item__title text-center"><b>WhatsApp для апашек</b></div>
-                        <div class="last-video__item__text text-center">
-                            <p>У каждого есть апашка, которая просит научить пользоваться Whatsapp. Но не каждый может найти время для этого. Мы создали первый в мире обучающий курс по Whatsapp. Для наших апашек. Более 10 тысяч зрителей оценили простоту, доступность и наглядность курса. А также рассказали нам, что действительно поделились курсом со своими аташками и апашками.</p>
-                        </div>
-                    </div>
-                    <!--END LAST VIDEO ITEM-->
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--END SECTION LAST VIDEO-->
 
-<!--START SECTION PROJECTS AMOUNT-->
-<section class="section section--bordered" id="section__projects-amount">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section__bordered-block">
-                    <h2 class="section__title text-uppercase">В общей сложности мы реализовали</h2>
-                    <div class="section__undertitle text-center text-uppercase">проектов более чем на</div>
-                    <div class="projects-amount__value text-center">900 000 000 <span>тг</span></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--END SECTION PROJECTS AMOUNT-->
 
-<!--START SECTION LECTURERS-->
-<section class="section" id="section_lecturers">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 d-block d-md-none">
-                <h2 class="section__title text-uppercase">Преподаватели</h2>
-            </div>
-            <div class="col-12">
-                <div class="lecturers__items owl-carousel">
-                    <!--START LECTURERS ITEM-->
-                    <div class="lecturers__item text-center">
-                        <div class="lecturers__item__photo"><img src="<?php bloginfo('template_directory') ;?>/images/lecturers/lecturer__talgat.jpg" alt="man"></div>
-                        <div class="lecturers__item__name text-uppercase"><b>Талгат Демежан</b></div>
-                        <div class="lecturers__item__text">
-                            <p>Опытный оператор и монтажёр, тренер, реализовал более 20 образовательными проектов для вузов и бизнеса, обучает преподавателей Университета Нархоз технике эффективных публичных выступлений и созданию вовлекающих обучающих видео.</p>
-                        </div>
-                    </div>
-                    <!--END LECTURERS ITEM-->
-                    <!--START LECTURERS ITEM-->
-                    <div class="lecturers__item text-center">
-                        <div class="lecturers__item__photo"><img src="<?php bloginfo('template_directory') ;?>/images/lecturers/lecturer__erik.jpg" alt="man"></div>
-                        <div class="lecturers__item__name text-uppercase"><b>Ерик Соотла</b></div>
-                        <div class="lecturers__item__text">
-                            <p>В прошлом преподаватель Таллинского университета, руководил созданием магистерской программы в смешанном формате для университетов Таллина и Тампере в 2003. Изучает педагогический дизайн и дидактику онлайн обучения, координирует программу по разработке смешанных дисциплин бакалавриата для Университета Нархоз.</p>
-                        </div>
-                    </div>
-                    <!--END LECTURERS ITEM-->
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--END SECTION LECTURERS-->
+
+
+
 
 <!--START SECTION DEMONIZATION BANNER-->
 <section class="section" id="section__demonization-banner">
