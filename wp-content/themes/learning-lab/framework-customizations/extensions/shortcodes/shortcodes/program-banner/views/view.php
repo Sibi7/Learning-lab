@@ -14,11 +14,11 @@
             <div class="col-12">
                 <div class="banner-block get-program-banner__block text-center">
                     <div class="get-program-banner__title text-uppercase">
-                        <b>Получить полную</b> <br>программу курса
+                       <?=$atts['title'] ?>
                     </div>
-                    <div class="banner-block__undertitle text-uppercase">а так же вы можете получить консультацию нашего специалиста</div>
+                    <div class="banner-block__undertitle text-uppercase"><?=$atts['subtitle'] ?></div>
                     <div class="banner-block__btn">
-                        <button class="btn btn-primary" title="Получить" data-toggle="modal" data-modal-title="Получить программу курса" data-target="#send-order-modal">Получить</button>
+                        <button class="btn btn-primary" title="Получить" data-toggle="modal" data-modal-title="<?=$atts['modal_title'] ?>" data-target="#send-order-modal"><?=$atts['btn_name'] ?></button>
                     </div>
                 </div>
             </div>

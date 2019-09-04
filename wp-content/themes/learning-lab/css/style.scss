@@ -328,9 +328,10 @@ header {
 
 // FIRST SCREEN
 #section__first-screen {
-  background: $color--secondary url(../images/backgrounds/first-screen__background.jpg) no-repeat center center / cover;
+  background: $color--secondary no-repeat center center / cover;
   height: 640px;
   padding-top: 180px;
+  position: relative;
 
   h1 {
     font-weight: 100;
@@ -1531,4 +1532,12 @@ footer {
       opacity: 1;
     }
   }
+}
+
+#video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }

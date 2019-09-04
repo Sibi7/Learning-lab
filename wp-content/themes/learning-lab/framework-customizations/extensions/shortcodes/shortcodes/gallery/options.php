@@ -14,8 +14,28 @@ $options = [
         'type'=>'text',
         'label' => 'Заголовок секции'
     ],
-    'photo' => array(
-        'type' => 'multi-upload',
-        'label' => __('Добавить фотографии', '{domain}'),
+    'gallery' => array(
+        'type' => 'addable-popup',
+        'label' => __('Добавить фото', '{domain}'),
+        'template' => '{{- desk }}',
+        'size' => 'large', // small, medium, large
+        'add-button-text' => __('+', '{domain}'),
+        'sortable' => true,
+        'popup-options' => array(
+            'desk'=> [
+                'type' => 'text',
+                'label' => 'Описание'
+            ],
+            'photo'=> [
+                'type' => 'upload',
+                'label' => 'Фото'
+            ],
+            'thumb'=> [
+                'type' => 'upload',
+                'label' => 'Тамбнейл',
+                'help'  => __('Рекомендуемый размер 218x218px', '{domain}'),
+            ],
+        ),
     ),
+
 ];

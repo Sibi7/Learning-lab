@@ -10,32 +10,9 @@
 ?>
 
 <?php the_content(); ?>
-<body>
 
 
 
-
-
-
-<!--START SECTION CONTACTS-->
-<section class="section" id="section__contacts">
-    <div class="contacts__map">
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A969db3ee9bc5bc61e0f1252f863b66dd69379c57c139222bff38b93b97c9b6d9&amp;width=100%25&amp;height=500&amp;lang=ru_UA&amp;scroll=true"></script>
-    </div>
-    <div class="contacts__block">
-        <div class="section__title text-uppercase text-left">Наши контакты</div>
-        <p>
-            <b>Ул.Жандосова ,55 1-й микрорайон,</b> <br>
-            81 г.Алматы,Казахстан. <br>
-            050035 При университете «НАРХОЗ»
-        </p>
-        <p>
-            <a href="tel:87017953233" title="+7 701 795 32 33" class="link link--black link__phone">+7 701 795 32 33</a>
-            <a href="mailto:info@ell.kz" title="info@ell.kz" class="link link--blue">info@ell.kz</a>
-        </p>
-    </div>
-</section>
-<!--END SECTION CONTACTS-->
 
 
 
@@ -101,5 +78,3 @@
 <!--START GO TOP BTN-->
 <div id="gotop-btn"></div>
 <!--START GO TOP BTN-->
-
-</body>

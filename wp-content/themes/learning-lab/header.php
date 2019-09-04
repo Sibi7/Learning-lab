@@ -54,14 +54,18 @@
 
 <?php wp_head(); ?>
 </head>
-
+<?php
+$headerLogo = fw_get_db_customizer_option('header_logo');
+$headerContacts = fw_get_db_customizer_option('header_contacts');
+?>
 <body>
 <!--START HEADER-->
+
 <header class="position-fixed vw-100">
     <div class="container">
         <div class="row">
             <div class="col-6 col-md-2">
-                <div class="header__logo"><a href="/"><img src="<?php bloginfo('template_directory') ;?>/images/logo.png" class="mw-100" alt="logo"></a></div>
+                <div class="header__logo"><a href="/"><img src="<?= $headerLogo['url']; ?>" class="mw-100" alt="logo"></a></div>
             </div>
             <div class="d-block d-md-none col-6">
                 <div class="mobile-menu-btn float-right" onclick="show_mobile_menu();">
@@ -73,7 +77,15 @@
             <div class="col-md-10 mobile-menu" id="mobile-menu">
                 <button type="button" class="mobile-menu__close-btn d-md-none btn btn-light" onclick="hide_mobile_menu();">&times;</button>
                 <div class="text-center text-md-right fixed-hide">
-                    <a href="tel:87017953233" class="link link--white link__phone" title="+7 701 795 32 33"><b><img src="<?php bloginfo('template_directory') ;?>/images/icons/icon__phone.png?v=1.1" alt="phone icon"> +7 701 795 32 33</b></a>
+
+                    <?php if (is_array($headerContacts) && !empty($headerContacts)): ?>
+                        <?php foreach ($headerContacts as $key => $att): ?>
+                            <a href="tel:<?=$att['phone']?>" class="link link--white link__phone" title="+7 701 795 32 33"><b><img src="<?=$att['icon_phone']['url']?>">  <?=$att['phone']?></b></a>
+
+                        <?php endforeach; ?>
+                    <?php endif; ?>
+
+
                 </div>
                 <nav class="float-none float-md-right">
                     <ul class="list-unstyled nav main-menu main-menu--white">
