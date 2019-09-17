@@ -23,7 +23,7 @@
                             <div class="program__item__theme-number text-uppercase"><?= $att['theme'] ?></div>
                             <div class="program__item__title text-uppercase"><b><?= $att['title'] ?></b></div>
                             <div class="program__item__lessons">
-                                <button type="button" class="btn btn-primary program__item__lessons__btn"></button>
+                                <a href="#section__get-program-banner"  class="btn btn-primary program__item__lessons__btn link__anchor"></a>
                                 <ul class="list-unstyled program__item__lessons__list">
                                     <?php if (is_array($att['list_program']) && !empty($att['list_program'])): ?>
                                         <?php foreach ($att['list_program'] as $key => $at): ?>

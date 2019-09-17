@@ -32,7 +32,7 @@
                         <div class="col-md-8 offset-md-2 pt-3 pb-3">
                             <div class="form-group mb-4">
                                 <label for="input_email">Введите Ваше имя:</label>
-                                <input type="email" name="email" class="form-control" id="input_email" placeholder="Введите Ваше имя">
+                                <input type="text" name="text" class="form-control" id="input_email" placeholder="Введите Ваше имя">
                             </div>
                             <div class="form-group mb-5">
                                 <label for="input_phone">Введите номер телефона</label>

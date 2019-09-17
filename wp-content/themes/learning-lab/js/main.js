@@ -148,16 +148,16 @@ $(".link__anchor").on("click", function() {
 	return false
 });
 
-$('.program__item__lessons__btn').on('click', function () {
-	var program_item = $(this)
-		.closest('.program__item');
-
-	if(program_item.hasClass('show')){
-		program_item.removeClass('show');
-	}else{
-		program_item.addClass('show');
-	}
-});
+// $('.program__item__lessons__btn').on('click', function () {
+// 	var program_item = $(this)
+// 		.closest('.program__item');
+//
+// 	if(program_item.hasClass('show')){
+// 		program_item.removeClass('show');
+// 	}else{
+// 		program_item.addClass('show');
+// 	}
+// });
 
 send_order_modal.on('show.bs.modal', function (event) {
 	var button = $(event.relatedTarget),
